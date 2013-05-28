@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 """
-Created on 23 janv. 2013
-
 A quick'n'dirty script to grab images from http devices that stream jpeg in
 a parallel way.
 
-@author: mutah
+@author: fgirault
 """
 import sys
 import os
