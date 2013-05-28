@@ -1,7 +1,8 @@
 masscamgrab
 ===========
 
-A command line tool to grab pictures from a large set of webcam.
+A command line tool to grab pictures from a large set of webcams, implemented 
+in pure python.
 
 	Usage: masscamgrab.py [options]
 
@@ -15,3 +16,9 @@ A command line tool to grab pictures from a large set of webcam.
 	                        number of subprocesses.Don't hesitate to try high
 	                        values like 64 or 128 ;)
 
+The input file must contain one url per line. If getting content from an url 
+fails, the url is added to a fail.log file in the current directory.
+
+A common form of url is http://[ip adress]:80/anony/mjpg.cgi
+
+Timestamped pictures are created in a directory per host in the output directory.
